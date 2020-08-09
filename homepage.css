@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 2px;
+    padding: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(35, 36, 35);
+}
+header{
+    /* display: flex; */
+    background-image: url(./hppaviliongaming1515ec0000featured.jpg);
+    background-color: rgb(248, 144, 103);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgb(236, 162, 154);
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+    font-size: 14px;
+}
+#menuitems{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 1rem;
+}
+a:hover{
+    background-color:  rgb(94, 243, 8);
+    border-radius: 10px;
+    color:;
+    padding: 10px;
+    font-weight: 800;
+}
+.h1{
+    padding: 10px;
+    color: rgb(209, 26, 26);
+    font-size: 2rem;
+}
+.h22{
+    color: rgb(216, 125, 115);
+    margin-top:5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    border-bottom: 2px solid  rgb(216, 125, 115);
+
+}
+.row>h2{
+    /* text-align: center; */
+    color: rgb(216, 125, 115);
+}
+h2{
+    color: rgb(248, 9, 148);
+    font-size: 2em;
+}
+
+
+section{
+    border-bottom: 2px solid rgb(236, 162, 154);
+}
+.row{
+    display: flex;
+    height: 100vh;
+}
+.col-2{
+    flex-basis: 35%;
+}
+.col-2-1{
+    flex-basis: 70%;
+    margin-top: 7em;
+    background-color: rgb(43, 44, 44);
+    border-radius: 10px;
+}
+.col-2-1:hover{
+    background-color:rgb(117, 90, 103);
+    border-radius: 20px;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+/* ---------------HOME------------ */
+#home h2{
+    margin-bottom: 5em;
+
+}
+#home>div>div>div{
+    /* height: 100vh; */
+    text-align: left;
+    background-color:  rgb(63, 63, 63);
+    width: 50%;
+    margin: auto;
+    font-size: 40px;
+    color: rgb(162, 236, 166);
+}
+#home>div>div>div:hover{
+    background-color:rgb(218, 243, 160);
+    color: rgb(248, 12, 177);
+    border-radius: 15px;
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+/* ----------ABOUT ME--------- */
+
+.col-2-1>P{
+    /* background-color: rgb(61, 61, 60); */
+        color: rgb(197, 185, 185);
+        font-size: 1.5em;
+}
+.col-2-1>h3{
+        color: rgb(162, 236, 166);
+        font-size: 2em;
+}
+
+/* --------------EDUCATION----------- */
+
+#education>h2{
+    text-align: center;
+    color:rgb(216, 125, 115);
+    border-bottom: 2px solid rgb(216, 125, 115);
+    width: 7em;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 4em;
+   
+}
+.col-3{
+    background-color: rgb(43, 44, 44);
+    width: 30%;
+    text-align: center;
+    /* color: rgb(216, 125, 115); */
+    margin: 1em;
+    padding: 1em;
+    padding-top: 0px;
+    height: 45%;
+    border-radius: 10px;
+}
+#education .col-3:hover{
+    transform: translateY(-10px);
+    background-color: rgb(218, 243, 160);
+    border-radius: 15px; transition: 0.5s;
+}
+.col-3>h2{
+    margin-bottom: 10px;
+}
+.col-3 P{
+color: rgb(190, 106, 179);
+text-align: left;
+font-size: 20px;
+}
+.col-3 P:hover{
+    color: rgb(43, 44, 44); 
+    transition: 0.5s;
+}
+.col-3 h3{
+    color: rgb(248, 12, 177);
+    text-align: left;
+}
+
+/* -----------SKILLS------------ */
+
+#skills>h2{
+    /* background-color: rgb(61, 61, 60); */
+    text-align: center;
+    color:rgb(216, 125, 115);
+    border-bottom: 2px solid rgb(216, 125, 115);
+    width: 4em;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    
+}
+.scol{
+    background-color:  rgb(43, 44, 44);
+    width: 50%;
+    text-align: center;
+    /* color: rgb(216, 125, 115); */
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 0px;
+    height: 45%;
+    border-radius: 10px;
+}
+#skills .scol:hover{
+    transform: translateY(-15px);
+    background-color: rgb(218, 243, 160);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.scol li{
+    font-size: 30px;
+}
+.scol li:hover{
+    color: rgb(43, 44, 44);
+    transition: 0.5s;
+}
+/* -----------LANGUAGE---------- */
+
+#languages>h2{
+    text-align: center;
+    color:rgb(216, 125, 115);
+    border-bottom: 2px solid rgb(216, 125, 115);
+    width: 7em;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+.col2{
+    background-color:  rgb(43, 44, 44);
+    width: 35%;
+    text-align: center;
+    /* color: rgb(216, 125, 115); */
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 0px;
+    height: 45%;
+    border-radius: 10px;
+}
+#languages .col2:hover{
+    transform: translateY(-15px);
+    background-color: rgb(218, 243, 160);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.col2 h2{
+    margin-bottom: 20px;
+}
+.col2 h2:{
+    color:rgb(43, 44, 44) ;
+}
+li{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 20px;
+    color: rgb(190, 106, 179);
+    text-align: left;
+    font-size: 30px;
+}
+li:hover{
+    color: rgb(43, 44, 44);
+    transition: 0.3s;
+}
+
+/* ------------PROJECT------ */
+
+#projects>h2{
+    /* background-color: rgb(61, 61, 60); */
+    text-align: center;
+    color:rgb(216, 125, 115);
+    border-bottom: 2px solid rgb(216, 125, 115);
+    width: 7em;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+.pcol2{
+    background-color:   rgb(43, 44, 44);
+    width: 35%;
+    text-align: center;
+    /* color: rgb(216, 125, 115); */
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 0px;
+    height: 35%;
+    border-radius: 10px;
+}
+#projects .pcol2:hover{
+    transform: translateY(-15px);
+    background-color: rgb(218, 243, 160);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.pcol2 p{
+    margin-top: 40px;
+    color: rgb(190, 106, 179);
+    text-align: left;
+    font-size: 40px;
+}
+.pcol2 p:hover{
+    color: rgb(248, 9, 148);
+    transition: 0.3s;
+}
+/* -------------CERTIFICATES---------- */
+
+#certificates>h2{
+    text-align: center;
+    color:rgb(216, 125, 115);
+    border-bottom: 2px solid rgb(216, 125, 115);
+    width: 7em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.ccol2{
+    border-radius: 10px;
+    margin: auto;
+}
+#certificates .ccol2:hover{
+    transform: translateY(-15px);
+    background-color: rgb(218, 243, 160);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.ccol2 img{
+    margin:10px;
+    padding: 10px;
+}
+
+/* ------------GO TO TOP----------- */
+
+.top a{
+    display: block;
+    width: auto;
+    text-align: center;
+    margin: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    float: right;
+}
+.top a:hover{
+    color: seashell;
+    background-color:  rgb(209, 26, 26);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    transition: 0.3s;
+}
+
+/* --------------FOOTER----------- */
+
+.footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex: 1; */
+    height:auto;
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(44, 42, 44);
+    width: 100%;
+    margin-bottom: 8px;
+    border-bottom: 2px solid rgb(236, 162, 154);
+    border-top: 2px solid rgb(236, 162, 154);
+
+}
+.fcol2{
+    background-color: rgb(61, 61, 60);
+    color: rgb(218, 218, 196);
+    width: 30%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#contact .fcol2 .con:hover{
+    font-size: 20px;
+    transform: translateX(-10px);
+    background-color: rgb(241, 142, 211);
+    color: rgb(35, 36, 35);
+}
